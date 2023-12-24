@@ -26,7 +26,7 @@ const isDevepmentEnvironment = process.env.TYPE === "DEVELOPMENT" ? true : false
 
 // Information of the room
 const NAME = "🟣 Juegan todos con DylanDev_to 🟣"
-const TOKEN = "thr1.AAAAAGWB48Uy6DA8DGs9fQ.Yt9YtBMKQYE"
+const TOKEN = "thr1.AAAAAGWHx3BZ3r3pucM6pg.Z6LaT5QSFgQ"
 const ADMIN_NAMES = []
 const TEAM_NAMES = { red: "Red", blue: "Blue" }
 const GEO = { code: "ar", lat: -32.94682, lon: -60.63932 }

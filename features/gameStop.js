@@ -7,7 +7,10 @@ module.exports = (player) => {
 
     let countPlayers = global.room.getPlayerList().length;
 
-    if (countPlayers > 12) {
+    if (countPlayers > 16) {
+        loadMap("Twitch_DylanDev_to x11")
+    }
+    else if (countPlayers > 12) {
         loadMap("Twitch_DylanDev_to x7")
     }
     else if (countPlayers > 6) {
